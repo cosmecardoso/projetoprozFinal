@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    list-style: none;
+    transition: all .2s linear;
+}
+
+
+header{
+    width:100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+   box-shadow: 0 0 10px rgb(243, 241, 241);
+   background: black;
+}
+ 
+
+i{
+    color: #fafafa;
+    cursor: pointer;
+    
+    
+}
+ul li i{
+    padding-left: 100px;
+
+}
+header .logo{
+    flex: 2;
+    color:#f50707;
+     
+    margin-left: 50px;
+    
+    font-size: 12px;
+}
+header .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background:#575555;
+    border-radius: 30px;
+    color:gray;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 60px;
+    text-align: center;
+     
+}
+ 
+.search-box button{
+    cursor: pointer;
+    width:40px;
+    height: 40px;
+    border-radius: 30px;
+    border:none;
+    position: absolute;
+    top:0;
+    right: 0;
+    transform: scale(0.9);
+    background: rgb(81, 82, 81);
+    color: #424040;
+}
+header ul {
+    flex:2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    
+    color:#fff;
+   
+    
+    padding: 5px 2px;
+}
+
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+@media(max-width:1000px){
+    .search-box button{
+        position: absolute;
+    }
+   
+  
+}
+
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background: #17191D;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+.conten {
+    padding: 3rem 9% ;
+    background: linear-gradient(90deg,rgb(34, 36, 41), rgba(34, 36, 41, 0.5)), url("img/sibe.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.conten h1 {
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #d8d8d8;
+}
+.conten p {
+    max-width: 45rem;
+    color: #d8d8d8;
+    font-size: 1rem;
+    margin: .5rem 0;
+    letter-spacing: .02rem;
+    font-weight: 300;    
+}
+.btn {
+    display: inline-block;
+    background: #8a269e;
+    border-radius: .2rem;
+    padding: .4rem 3rem;
+    color: #d8d8d8;
+    margin-top: .5rem;
+    font-size: 1rem;
+    box-shadow: 0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+    background: #6a187a;
+}
+
+.title1 {
+    padding: 1rem 9% ;
+    color: #d8d8d8;
+    font-weight: 300;
+    font-size: 1.5rem;}
+.video{ 
+    border: 0.12rem solid #d8d8d8;
+}
+.contvideos {
+    padding: 0 9% ;
+    margin: auto;    
+    display: grid;    
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+}
+.grupo2 {
+    background: #222429;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #0c0c0c;
+    padding: 0px 10%;
+}
+
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #f3f1ea;
+    text-transform: capitalize;
+}
+
+
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+    
+}
+
+.footer-col ul li a{
+    display: block;
+    font-size: 5px;
+    text-transform: capitalize;
+    color: #a59d9d;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+
+.links a{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    color: #4d4f55;
+    background-color: white;
+}
+.footer-col ul li{
+    color: #fff;
+    font-size: 9px;
+    
+}
+.footer-p{
+    color:#fff;
+    font-size: 9px;
+}
