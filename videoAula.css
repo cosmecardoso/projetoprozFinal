@@ -35,13 +35,19 @@ ul li i{
     padding-left: 100px;
 
 }
-header .logo{
+header .logos{
     flex: 2;
     color:#f50707;
-     
+     size: 17px;
     margin-left: 50px;
     
     font-size: 12px;
+}
+
+img{
+    height: auto;
+    width: 160px;
+    max-width: 100%;
 }
 header .search-box{
     flex: 1;

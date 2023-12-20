@@ -40,7 +40,7 @@ ul li i{
     padding-left: 100px;
 
 }
-header .logo{
+header .logos{
     flex: 2;
     color:#f50707;
      
@@ -48,6 +48,13 @@ header .logo{
     
     font-size: 12px;
 }
+
+header .logos img .log{
+    height: auto;
+    width: 160px;
+    max-width: 100%;
+}
+
 header .search-box{
     flex: 1;
     position: relative;
